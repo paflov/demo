@@ -1,0 +1,14 @@
+<div id="app-login">
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand">Login</a>
+    <div class="form-inline">
+      <input type="text" name="username" class="form-control mr-sm-2" placeholder="Username" [(ngModel)]="username" >
+      <input type="password" name="password" class="form-control mr-sm-2" placeholder="Password" [(ngModel)]="password" >
+      <button (click)="login()" class="btn btn-outline-success my-2 my-sm-0">Submit</button>
+    </div>
+  </nav>
+  <br>
+  <div class='alert' [hidden]="!message" [ngClass]="{'alert-danger': state=='error', 'alert-success': state=='success', 'alert-info': state==''}">
+    {{message}}
+  </div>
+</div>

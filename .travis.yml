@@ -13,9 +13,9 @@ addons:
       - google-chrome-stable
 
 install:
+  - npm install chromedriver --chromedriver_version=76
   - npm install
 
 script:
-  - chrome --version
   - google-chrome --version
   - ng e2e

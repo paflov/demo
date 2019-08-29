@@ -3,7 +3,7 @@ node_js:
   - "10.16.3"
 
 sudo: true
-dist: trusty
+dist: xenial
 
 addons:
   apt:

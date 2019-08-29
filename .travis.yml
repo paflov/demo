@@ -14,7 +14,7 @@ addons:
 
 install:
   - npm install
-  - ./node_modules/.bin/webdriver-manager update --versions.chrome 76.0.3809.68
+  - ./node_modules/.bin/webdriver-manager update --versions.chrome=76.0.3809.100
 
 script:
   - google-chrome --version

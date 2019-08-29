@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "10.16.3"
+sudo: true
+
+addons:
+  chrome: stable
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install -g @angular/cli
+
+script:
+  - ng test
+  - ng e2e

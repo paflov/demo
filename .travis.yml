@@ -18,4 +18,4 @@ install:
 
 script:
   - google-chrome --version
-  - ng e2e
+  - ng e2e --configuration=production

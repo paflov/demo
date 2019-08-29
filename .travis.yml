@@ -16,4 +16,6 @@ install:
   - npm install
 
 script:
+  - chrome --version
+  - google-chrome --version
   - ng e2e

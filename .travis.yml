@@ -14,5 +14,4 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng test
   - ng e2e

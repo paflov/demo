@@ -3,7 +3,7 @@ node_js:
   - "10.16.3"
 
 sudo: true
-dist: xenial
+dist: bionic
 
 addons:
   apt:
@@ -14,6 +14,7 @@ addons:
 
 install:
   - npm install
+  - ./node_modules/.bin/webdriver-manager update
 
 script:
   - google-chrome --version

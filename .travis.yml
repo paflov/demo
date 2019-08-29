@@ -13,7 +13,7 @@ addons:
       - google-chrome-stable
 
 install:
-  - npm install chromedriver --chromedriver_version=76
+  - npm install chromedriver --chromedriver_version=76.0.1
   - npm install
 
 script:

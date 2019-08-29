@@ -14,4 +14,4 @@ before_script:
   - npm install -g @angular/cli
 
 script:
-  - ng e2e-headless
+  - npm e2e-headless

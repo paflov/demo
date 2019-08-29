@@ -14,6 +14,7 @@ exports.config = {
   ],
   capabilities: {
     browserName: 'chrome',
+    version: 76,
     chromeOptions: {
       args: [ "--headless", "--version=76.0.3809.100" ]
     },
